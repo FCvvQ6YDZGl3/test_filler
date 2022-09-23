@@ -1,0 +1,38 @@
+﻿@model IEnumerable<TestFiller.Models.Question>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Воросы</title>
+</head>
+<body>
+    <h2>Здесь отображаются вопросы достыпные для тестирования</h2>
+    <a asp-action="QuesAndAnswForm">Добавить вопрос</a>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Text</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (TestFiller.Models.Question r in Model)
+                {
+                    <tr>
+                        <td><pre>@r.id</pre></td>
+                        <td><pre>@r.text</pre></td>
+                        <td>@Html.ActionLink("Удалить", "DeleteQuestion", new { questionId = r.id })</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

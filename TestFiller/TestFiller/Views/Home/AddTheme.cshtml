@@ -1,0 +1,20 @@
+﻿@model TestFiller.Models.Theme
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Добавить тему</title>
+</head>
+<body>
+    <form asp-action="AddTheme" method="post">
+        <p>
+            <label asp-for="title">Название темы:</label>
+            <input asp-for="title" />
+        </p>
+        <button type="submit">Добавить</button>
+    </form>
+</body>
+</html>
