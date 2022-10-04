@@ -11915,11 +11915,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\test-ASRock-87\\source\\repos\\TestFiller\\TestFiller\\TestFiller.csproj",
+      "projectUniqueName": "C:\\projects\\test_filler\\TestFiller\\TestFiller\\TestFiller.csproj",
       "projectName": "TestFiller",
-      "projectPath": "C:\\Users\\test-ASRock-87\\source\\repos\\TestFiller\\TestFiller\\TestFiller.csproj",
+      "projectPath": "C:\\projects\\test_filler\\TestFiller\\TestFiller\\TestFiller.csproj",
       "packagesPath": "C:\\Users\\test-ASRock-87\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\test-ASRock-87\\source\\repos\\TestFiller\\TestFiller\\obj\\",
+      "outputPath": "C:\\projects\\test_filler\\TestFiller\\TestFiller\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\test-ASRock-87\\AppData\\Roaming\\NuGet\\NuGet.Config",
